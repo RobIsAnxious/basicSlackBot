@@ -1,7 +1,7 @@
 module.exports = function (req, res, next){
   var userName = req.body.user_name;
   var botPayload = {
-    text: 'Hello, ' + userName + '! I hope you\'re having a wonderful day!'
+    text: ":sunglasses: Hello, " + userName + "! I hope you\'re having a wonderful day! :smile: :sunny:"
   };
 
   if (userName !== 'slackbot'){

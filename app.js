@@ -5,7 +5,7 @@ var hellobot = require('./hellobot');
 var app = express();
 var port = process.env.PORT || 3000;
 
-// body parser middlewaref
+// body parser middleware
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // test route
